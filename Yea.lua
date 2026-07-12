@@ -1003,10 +1003,10 @@ function showESPSelection(preset, walkspeedEnabled)
 					end
 				end
 				if child:IsA("TextLabel") or child:IsA("TextButton") then
-					TweenService:Create(c, TweenInfo.new(0.3), { TextTransparency = 1 }):Play()
+					TweenService:Create(child, TweenInfo.new(0.3), { TextTransparency = 1 }):Play()
 				end
 				if child:IsA("Frame") or child:IsA("ImageButton") then
-					TweenService:Create(c, TweenInfo.new(0.3), { BackgroundTransparency = 1 }):Play()
+					TweenService:Create(child, TweenInfo.new(0.3), { BackgroundTransparency = 1 }):Play()
 				end
 			end
 		end
