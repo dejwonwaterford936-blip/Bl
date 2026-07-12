@@ -2054,7 +2054,7 @@ else
 	print("Speed-Controller: Speed Controller is disabled by config.")
 end
 
-print("[Mooze] All features loaded successfully.")
+print("[Mooze] All features loaded successfully. nigger")
 print("[Mooze] Executor:", ExecutorName)
 print("[Mooze] Silent Aim Perfect:", ExecutorCapabilities.HasGetRawMetatable and "True" or "False")
 print("[Mooze] Aimbot, Silent Aim, Triggerbot, ESP, and other features are now running.")
